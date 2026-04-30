@@ -1,0 +1,19 @@
+project_id = "pmuovjqqryljxopqdlai"
+
+[functions.cves-list]
+verify_jwt = false
+
+[functions.cve-detail]
+verify_jwt = false
+
+[functions.package-check]
+verify_jwt = false
+
+[functions.sync-kev]
+verify_jwt = false
+
+[functions.ai-summary]
+verify_jwt = true
+
+[functions.pentest-simulate]
+verify_jwt = true
